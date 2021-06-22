@@ -1,0 +1,77 @@
+body{
+    
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #1d5e5e7a;
+}
+
+.Container{
+
+    display:grid;
+    grid-template-rows: 10% 90%;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 50vw;
+    background-color:skyblue;
+    margin: 30px auto;
+}
+
+.Container-top {
+    /* padding-bottom: 2rem; */
+    font-weight: 90;
+    
+   
+}
+/* .form-control{
+    display: inline-block;
+
+    height: inherit;
+    width: inherit;
+}
+.btn{
+    display: inline-block;
+   margin-top: .2rem;
+} */
+.Container-top #inputcity{
+     
+    border-radius:5px;
+height: 20px;
+}
+.Container-top #btn{
+    border-radius:4px;
+    height:25px;
+}
+#Container-bottom{
+    display: grid;
+    justify-content:center;
+/*  
+    grid-template-rows: ; */
+    height: 400px;
+    /* width:  226px; */
+    background-color: rgb(21, 21, 46);
+    box-shadow: 5px 5px  8px rgb(34, 25, 25);
+}
+.weatherphoto{
+  
+    height: 150px;;
+    width:250px;
+   background-color:teal;
+}
+.weatherphoto img{
+    height: inherit;
+    width: inherit;
+}
+.content{
+     display:inline-block;
+     text-align:center;
+     
+
+}
+.cityname,.temp,.cloudinfo{
+  padding: 20px 0;
+  font-size: x-large;
+  font-weight: 900;
+  color:white;
+}
