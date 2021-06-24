@@ -75,3 +75,10 @@ height: 20px;
   font-weight: 900;
   color:white;
 }
+
+@media screen and (max-width:600px)
+{
+    .Container{
+        width:80vw;
+    }
+}
